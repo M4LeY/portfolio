@@ -4,6 +4,7 @@
   --accent: #ccff00;
   --mono: 'JetBrains Mono', monospace;
   --sans: 'Space Grotesk', sans-serif;
+  color-scheme: light only;
 }
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
