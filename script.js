@@ -1,7 +1,10 @@
-document.querySelectorAll('.nav-links a').forEach(link => {
+document.getElementById('year').textContent = new Date().getFullYear();
+
+document.querySelectorAll('.masthead nav a').forEach(link => {
   link.addEventListener('click', (e) => {
-    e.preventDefault();
     const target = document.querySelector(link.getAttribute('href'));
+    if (!target) return;
+    e.preventDefault();
     target.scrollIntoView({ behavior: 'smooth' });
   });
 });

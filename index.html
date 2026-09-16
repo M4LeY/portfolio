@@ -1,75 +1,94 @@
 <!DOCTYPE html>
-<html lang="tr">
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>M4LeY — Portfolio</title>
+<title>M4LeY — Developer</title>
+<meta name="description" content="Portfolio of M4LeY, a student developer learning web development and Python.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<nav>
-  <div class="logo">M4LeY</div>
-  <ul class="nav-links">
-    <li><a href="#hakkimda">Hakkımda</a></li>
-    <li><a href="#projeler">Projeler</a></li>
-    <li><a href="#yetenekler">Yetenekler</a></li>
-    <li><a href="#iletisim">İletişim</a></li>
-  </ul>
-</nav>
+<div class="frame">
 
-<header id="hero">
-  <div class="hero-content">
-    <h1>Merhaba, ben <span>M4LeY</span></h1>
-    <p>Web geliştirme ve yazılım üzerine çalışan bir öğrenciyim.</p>
-    <a href="#projeler" class="btn">Projelerimi Gör</a>
-  </div>
-</header>
+  <header class="masthead">
+    <a class="mark" href="#top">M4LeY</a>
+    <nav>
+      <a href="#work">Work</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
 
-<section id="hakkimda">
-  <h2>Hakkımda</h2>
-  <p>
-    Yazılım geliştirmeyi yeni öğrenen bir öğrenciyim. Web teknolojileri ve
-    Python üzerine kendimi geliştiriyorum. Öğrendiklerimi gerçek projelere
-    dönüştürmeyi ve müşteriler için değer üretmeyi hedefliyorum.
-  </p>
-</section>
+  <main id="top">
 
-<section id="projeler">
-  <h2>Projeler</h2>
-  <div class="projects">
-    <div class="project-card">
-      <h3>Portfolio Sitesi</h3>
-      <p>Kendi tanıtım sitem — HTML, CSS ve JavaScript ile sıfırdan hazırlandı.</p>
-      <a href="https://github.com/M4LeY/portfolio" target="_blank">GitHub'da Gör →</a>
-    </div>
-    <div class="project-card placeholder">
-      <h3>Yakında...</h3>
-      <p>Yeni projeler yakında burada olacak.</p>
-    </div>
-  </div>
-</section>
+    <section class="intro">
+      <p class="eyebrow">01 — Currently a student</p>
+      <h1>Building small, useful things on the web while I learn.</h1>
+      <p class="lede">
+        I'm early in my path as a developer — comfortable with HTML, CSS and
+        JavaScript, and picking up Python. This site tracks what I build
+        as I go, rather than what I claim to already know.
+      </p>
+    </section>
 
-<section id="yetenekler">
-  <h2>Yetenekler</h2>
-  <div class="skills">
-    <span>HTML</span>
-    <span>CSS</span>
-    <span>JavaScript</span>
-    <span>Python (öğreniyorum)</span>
-    <span>Git & GitHub</span>
-  </div>
-</section>
+    <section class="work" id="work">
+      <p class="eyebrow">02 — Selected work</p>
+      <ol class="work-list">
+        <li class="work-item">
+          <span class="work-index">01</span>
+          <div class="work-body">
+            <h3>This site</h3>
+            <p>A hand-built portfolio — no template, no builder. HTML, CSS and vanilla JS, written and version-controlled from scratch.</p>
+            <a href="https://github.com/M4LeY/portfolio" target="_blank" rel="noopener">View source ↗</a>
+          </div>
+        </li>
+        <li class="work-item work-item--empty">
+          <span class="work-index">02</span>
+          <div class="work-body">
+            <h3>Next project</h3>
+            <p>Reserved for the next thing I build. Check back soon.</p>
+          </div>
+        </li>
+      </ol>
+    </section>
 
-<section id="iletisim">
-  <h2>İletişim</h2>
-  <p>Benimle çalışmak ister misiniz? Aşağıdan ulaşabilirsiniz.</p>
-  <a class="btn" href="https://github.com/M4LeY" target="_blank">GitHub Profilim</a>
-</section>
+    <section class="about" id="about">
+      <p class="eyebrow">03 — About</p>
+      <div class="about-grid">
+        <p>
+          I'm a student teaching myself software development, starting with
+          the web. My approach is straightforward: pick something worth
+          building, finish it, and be honest about what stage I'm at.
+        </p>
+        <ul class="stack">
+          <li><span>HTML &amp; CSS</span><em>comfortable</em></li>
+          <li><span>JavaScript</span><em>comfortable</em></li>
+          <li><span>Python</span><em>learning</em></li>
+          <li><span>Git &amp; GitHub</span><em>daily use</em></li>
+        </ul>
+      </div>
+    </section>
 
-<footer>
-  <p>&copy; 2026 M4LeY. Tüm hakları saklıdır.</p>
-</footer>
+    <section class="contact" id="contact">
+      <p class="eyebrow">04 — Get in touch</p>
+      <h2>Open to small web projects and freelance work.</h2>
+      <div class="contact-links">
+        <a href="https://github.com/M4LeY" target="_blank" rel="noopener">GitHub ↗</a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <span>M4LeY</span>
+    <span id="year"></span>
+  </footer>
+
+</div>
 
 <script src="script.js"></script>
 </body>

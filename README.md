@@ -1,19 +1,19 @@
 # Portfolio
 
-Kişisel tanıtım sitem. HTML, CSS ve JavaScript ile sıfırdan hazırlandı.
+My personal site, hand-built with HTML, CSS and JavaScript — no template or site builder.
 
-## Özellikler
+## Features
 
-- Responsive tasarım (mobil uyumlu)
-- Smooth scroll navigasyon
-- Modern koyu tema
+- Editorial-style layout with a serif/sans type pairing
+- Responsive, mobile-friendly
+- Smooth-scroll navigation
 
-## Kullanılan Teknolojiler
+## Stack
 
 - HTML5
 - CSS3
 - JavaScript (vanilla)
 
-## Canlı Site
+## Live site
 
-GitHub Pages üzerinden yayınlanabilir: Settings → Pages → main branch seçilerek etkinleştirilir.
+https://m4ley.github.io/portfolio/
